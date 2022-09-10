@@ -28,13 +28,17 @@ export class Delegate {
 
   @JsonProperty('productivity')
   public productivity: number;
-
+  
+  @JsonProperty('percent')
+  public percent: number;
+  
   constructor() {
     this.address = void 0;
     this.approval = void 0;
     this.missedBlocks = void 0;
     this.producedBlocks = void 0;
     this.productivity = void 0;
+    this.percent = void 0;
     this.publicKey = void 0;
     this.rate = void 0;
     this.username = void 0;
